@@ -1,3 +1,32 @@
-.te {
-	font-size: 100px;
+
+.height-jumbo {
+	height: 70vh;
+}
+
+.header-container {
+	margin-left: 5vh;
+}
+
+@media screen and (min-width: 801px) {
+  .h1-home{
+    font-size: 120px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .h1-home{
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .p-descp{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .p-descp {
+    font-size: 10px;
+  }
 }
