@@ -1,9 +1,27 @@
 {% extends 'main_template.html' %}
 {% block content %}
-<div class="jumbotron jumbotron-fluid height-jumbo">
-  <div class="container header-container">
-    <h1 class="h1-home">Hello! <br> I'm Bermylle.</h1>
-    <p class="lead p-descp">I am a computer science student at the University of the Philippines Manila</p>
-  </div>
-</div>
+<div class="site-blocks-cover overlay bg-intro-color intro-top" id="home-section">
+
+      <div class="container">
+        <div class="row justify-content-center">
+
+          <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
+            <div class="row">
+              <div class="col-lg-6 txt-intro-color">
+                <h1 class="">Hello! I'm Bermylle Razon</h1>
+                <p class="">Student <span class="mx-3">|</span> University of the Philippines Manila</p>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate dolore, nostrum inventore quisquam totam dignissimos culpa! Eveniet.</p>
+                <p><a href="#contact-section" class="btn smoothscroll btn-primary">Contact Me</a></p>
+                
+              </div>
+              <img src="{{ url_for('static',filename='images/berm.jpg') }}" alt="Image" class="img-face">
+            </div>
+          </div>
+            
+        </div>
+      </div>
+      
+</div>  
+
+
 {% endblock %}
